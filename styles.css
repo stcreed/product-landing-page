@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+#second {
+    min-height: 50vh;
+}
+
+#third {
+    background-color: #E5E7EB;
+    min-height: 50vh;
+}
+
+.fullview {
+    background-color: #1F2937;
+    margin: 0;
+    min-height: 100vh;
+}
+
+
