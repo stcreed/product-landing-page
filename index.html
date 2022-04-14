@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, intial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
         <link rel="stylesheet" href="styles.css">
         <title>Product Landing Page</title>
@@ -11,46 +11,64 @@
         <section class="fullview">
             <nav>
                 <h3>Header Logo</h3>
-                <ul>
-                    <li><a href="#first">First Section</a> </li>
-                    <li><a href="#second">Second Section</a> </li>
-                    <li><a href="#first">Third Section</a> </li>
-                    <li><a href="#first">Fourth Section</a> </li>
+                <ul class="navLinks">
+                    <li><a href="#second">Header Link One</a> </li>
+                    <li><a href="#third">Header Link Two</a> </li>
+                    <li><a href="#fourth">Header Link Three</a> </li>
                 </ul>
             </nav>
             <article id="first">
                 <div>
                     <h1>This website is awesome!</h1>
-                    <p>Some generic subtext here giving a brief description of the product.</p>
-                    <button>Sign Up</button>
+                    <p class="firstText">Some generic subtext here giving a brief description of the product. This box has smaller text than the headers because it is descriptive and needs to be subtle.</p>
+                    <a href="https://github.com/stcreed"><button type="button" class="signUp">Sign Up</button></a>
                 </div>
                 <div>
-                    <img src="" alt="">
+                    <img src="https://media.istockphoto.com/photos/confused-bearded-man-in-eyeglasses-shrugging-his-shoulders-picture-id625908018?k=20&m=625908018&s=612x612&w=0&h=LBWt6mcTnQsP3v_Ca26FoK0y2iOLzdMDHA7O7TYOaCQ=" alt="Shoulder shrug">
                 </div>
             </article>
         </section>
         <section id="second">
-            <h2>Some random information</h2>
-            <img src="" alt="">
-            <p>This is some text for beneath an image</p>
-            <img src="" alt="">
-            <p>This is some text for beneath an image</p>
-            <img src="" alt="">
-            <p>This is some text for beneath an image</p>
-            <img src="" alt="">
-            <p>This is some text for beneath an image</p>
+                <h2>Some random information.</h2>
+            <div class="allcards">
+                <div class="card">
+                    <div class="borderBox"></div>
+                    <p>This is some text for beneath an image</p>
+                </div>
+                <div class="card">
+                    <div class="borderBox"></div>
+                    <p>This is some text for beneath an image</p>
+                </div>
+                <div class="card">
+                    <div class="borderBox"></div>
+                    <p>This is some text for beneath an image</p>
+                </div>
+                <div class="card">
+                    <div class="borderBox"></div>
+                    <p>This is some text for beneath an image</p>
+                </div>
+            </div>
         </section>
         <section id="third">
-            <p>Some really nice words from a previous customer. Talking about how awesome the product is for them.</p>
-            <p>Author of quote, the myth, the legend</p>
+            <div class="quoteBox">
+                <p class="quote">This product changed my life forever. I can't explain how or why but it did, it's just that good. I've recommended this product to everyone I have ever met and they all love it too!</p>
+                <p class="customer">Joseph Blogson, Loyal Customer</p>
+            </div>
         </section>
         <section id="fourth">
-
+            <div class="blueBox">
+                <div class="callAct">
+                    <p class="callHead callWords">This is the famous Call to Action!</p>
+                    <p class="callFoot callWords">Have everything you ever dreamed of by clicking the link over there.</p>
+                </div>
+                <div class="callButton">
+                    <a href="https://github.com/stcreed"><button type="button" class="signUpbase">Sign Up</button></a>
+                </div>
+            </div>
         </section>
         <footer>
-
+            <p>Copyright Sam's Property</p>
         </footer>
     </body>
 </html>
-
 
